@@ -37,4 +37,7 @@ By downloading and/or using any of these files, you implicitly agree to all the
 terms of the license, as specified in the document LICENSE.txt
 (included in this directory)
 
-# Usage 
+# Dataset Description
+*UAVSAR data courtesy NASA/JPL-Caltech*
+The dataset is composed of 27 UAVSAR images over Sacramento-San Joaquin Delta, CA.
+
