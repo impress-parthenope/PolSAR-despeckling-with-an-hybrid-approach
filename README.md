@@ -1,6 +1,6 @@
-Training-supervised-neural-networks-for-PolSAR-despeckling-with-an-hybrid-approach
+# Training-supervised-neural-networks-for-PolSAR-despeckling-with-an-hybrid-approach
 
-# This repository contains the training dataset used in the [IEEE GRSL](https://ieeexplore.ieee.org/document/10319732) paper.
+This repository contains the training dataset used in the [IEEE GRSL](https://ieeexplore.ieee.org/document/10319732) paper.
 
 if you find it useful and use it for you research, please cite as the following 
 
