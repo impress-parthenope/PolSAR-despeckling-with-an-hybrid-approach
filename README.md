@@ -4,7 +4,7 @@ This repository contains a training dataset built following the hybrid approach 
 
 For accessing the dataset, refer to *release* section.
 
-if you find it useful and use it for you research, please cite the paper and insert an acknowledgement as the following: 
+if you use this dataset or find it useful for further research, please cite the paper as the following: 
 
 ```
 @ARTICLE{10319732,
@@ -17,6 +17,7 @@ if you find it useful and use it for you research, please cite the paper and ins
   pages={1-5},
   doi={10.1109/LGRS.2023.3333671}}
 ```
+and insert the following acknowledgement:
 ```
 UAVSAR data courtesy NASA/JPL-Caltech
 ```
