@@ -44,6 +44,20 @@ terms of the license, as specified in the document LICENSE.txt
 (included in this directory)
 
 # Dataset Description
-The dataset is composed of 27 UAVSAR images over Sacramento-San Joaquin Delta, CA.
+The dataset has been built by 27 fully polarimetric UAVSAR images over Sacramento-San Joaquin Delta, CA.
+The dataset contains 37260 noisy covariance matrices (64 x 64 patches) and correspondent noise-free covariance matrices.
+
+The noise-free covariance matrices have been estimated by temporal multi-looking the 27 covariance matrices obtained from the UAVSAR dataset.
+The noisy covariance matrices have been created follwoing the hybrid approach described in the paper.
+
+The released dataset is in the form ready-to-train as described in the paper.
+More precisely, considering the simmetry of covariance matrix, only the upper triangle has been considered.
+Each element of dataset is a multi-channel patch of dimension 9x64x64:
+- three channels for intensity components
+- three channels for real part of off-diagonal elements (upper triangle)
+- three channels imaginary part of off-diagonal elements (upper triangle)
+
+If you want to proceed to data augmentation as suggested in the paper, you need to perform a 180° rotation.
+- data2cov.py is provided for converting the flattended covariance matrix (9x64x64) in a covariance matrix of dimension (3x3x64x64) if necessary 
 
 
