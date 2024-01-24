@@ -1,10 +1,10 @@
-# Training-supervised-neural-networks-for-PolSAR-despeckling-with-an-hybrid-approach
+# Training Dataset for PolSAR Despeckling with an Hybrid Approach
 
 This repository contains a training dataset built following the hybrid approach presented in the [Training supervised neural networks for PolSAR despeckling with an hybrid approach, IEEE GRSL](https://ieeexplore.ieee.org/document/10319732) paper.
 
 For accessing the dataset, refer to *release* section.
 
-if you find it useful and use it for you research, please cite as the following 
+if you find it useful and use it for you research, please cite the paper and insert an acknowledgement as the following: 
 
 ```
 @ARTICLE{10319732,
@@ -17,6 +17,10 @@ if you find it useful and use it for you research, please cite as the following
   pages={1-5},
   doi={10.1109/LGRS.2023.3333671}}
 ```
+```
+UAVSAR data courtesy NASA/JPL-Caltech
+```
+
 
 In this paper study on the effect of different training approaches for PolSAR despeckling is provided.
 Inspired by similar analysis on SAR amplitude case in [Hybrid-MONet](https://ieeexplore.ieee.org/document/9474572) and [G-MOnet](https://ieeexplore.ieee.org/document/10250969)
@@ -39,6 +43,6 @@ terms of the license, as specified in the document LICENSE.txt
 (included in this directory)
 
 # Dataset Description
-*UAVSAR data courtesy NASA/JPL-Caltech*
 The dataset is composed of 27 UAVSAR images over Sacramento-San Joaquin Delta, CA.
+
 
