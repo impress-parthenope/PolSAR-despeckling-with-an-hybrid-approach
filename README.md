@@ -2,7 +2,7 @@
 
 This repository contains a training dataset built following the hybrid approach presented in the [Training supervised neural networks for PolSAR despeckling with an hybrid approach, IEEE GRSL](https://ieeexplore.ieee.org/document/10319732) paper.
 
-For accessing the dataset, refer to *release* section.
+For accessing the dataset, refer to [*release*](https://github.com/impress-parthenope/PolSAR-despeckling-with-an-hybrid-approach/releases/tag/data) section.
 
 if you use this dataset or find it useful for further research, please cite the paper as the following: 
 
